@@ -23,37 +23,37 @@
 //  along with this program; if not, write to the Free Software              //
 //  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA //
 // ------------------------------------------------------------------------- //
-// Author: Rodrigo Pereira Lima (BrInfo - SoluÁıes Web)                      //
+// Author: Rodrigo Pereira Lima (BrInfo - Solu√ß√µes Web)                      //
 // Site: http://www.brinfo.com.br                                            //
 // Project: RW-Banner                                                        //
-// DescriÁ„o: Sistema de gerenciamento de mÌdias publicit·rias               //
+// Descri√ß√£o: Sistema de gerenciamento de m√≠dias publicit√°rias               //
 // ------------------------------------------------------------------------- //
 
 //blocks/banner.php e //blocks/popadbanner.php e //blocks/ajaxbanner.php
-define("_MB_OPTION1","Categoria ‡ exibir:");
+define("_MB_OPTION1","Categoria √† exibir:");
 define("_MB_OPTION2","Qtde. Banners:");
 define("_MB_OPTION3","Qtde. Colunas:");
 define("_MB_OPTION4","Redimensionar banners?");
-define("_MB_OPTION4_DESC","Se marcar \"Sim\" todas as imagens exibidas no bloco ficaram com o tamanho da categoria selecionada. Deixa marcado como n„o para a imagem ser exibida no seu tamanho normal.");
+define("_MB_OPTION4_DESC","Se marcar \"Sim\" todas as imagens exibidas no bloco ficaram com o tamanho da categoria selecionada. Deixa marcado como n√£o para a imagem ser exibida no seu tamanho normal.");
 define("_MB_OPTION5","Mostrar 1 vez a janela a cada X reloads:");
 define("_MB_OPTION6","Cor de Fundo da Janela:");
 define("_MB_OPTION7","Cor da borda da Janela:");
-define("_MB_OPTION8","EspaÁamento entre os banners(cellspacing):");
-define("_MB_OPTION9","Mostrar aviso de fechamento autom·tico?");
-define("_MB_OPTION10","Texto alternativo para o bloco (para que n„o seja exibido deixe o conte˙do do campo em branco):");
-define("_MB_OPTION11","Este campo aceita [bbcodes] e conte˙do HTML.");
-define("_MB_OPTION12","Selecione os blocos ‡ exibir: ");
+define("_MB_OPTION8","Espa√ßamento entre os banners(cellspacing):");
+define("_MB_OPTION9","Mostrar aviso de fechamento autom√°tico?");
+define("_MB_OPTION10","Texto alternativo para o bloco (para que n√£o seja exibido deixe o conte√∫do do campo em branco):");
+define("_MB_OPTION11","Este campo aceita [bbcodes] e conte√∫do HTML.");
+define("_MB_OPTION12","Selecione os blocos √† exibir: ");
 define("_MB_OPTION13","Tempo de refresh dos banners (em milissegundos): ");
-define("_MB_OPTION14","Tempo de ExibiÁ„o da Janela (em segundos):");
+define("_MB_OPTION14","Tempo de Exibi√ß√£o da Janela (em segundos):");
 define("_MB_OPTION15","Carregando...");
 
 //blocks/dropinbanner.php
-define("_MB_OPTION16","Tipo de ExibiÁ„o:");
+define("_MB_OPTION16","Tipo de Exibi√ß√£o:");
 define("_MB_OPTION16_1","Exibir a cada reload");
-define("_MB_OPTION16_2","Somente uma vez por sess„o do browser");
+define("_MB_OPTION16_2","Somente uma vez por sess√£o do browser");
 define("_MB_OPTION16_3","Uma vez a cada X reloads");
-define("_MB_OPTION17","FrequÍncia de exibiÁ„o (1/frequencia):");
-define("_MB_OPTION18","DireÁ„o do surgimento:");
+define("_MB_OPTION17","Frequ√™ncia de exibi√ß√£o (1/frequencia):");
+define("_MB_OPTION18","Dire√ß√£o do surgimento:");
 define("_MB_OPTION18_1","De cima pra baixo");
 define("_MB_OPTION18_2","De baixo pra cima");
 define("_MB_OPTION19","Margem Esquerda (em pixels):");
@@ -61,9 +61,9 @@ define("_MB_OPTION20","Margem Superior (em pixels):");
 define("_MB_OPTION21","Cor de Fundo:");
 
 
-define("_MB_TEXT1","Este an˙ncio fechar· automaticamente em poucos segundos!");
+define("_MB_TEXT1","Este an√∫ncio fechar√° automaticamente em poucos segundos!");
 define("_MB_TEXT2","Sim");
-define("_MB_TEXT3","N„o");
+define("_MB_TEXT3","N√£o");
 define("_MB_TEXT4","[FECHAR]");
 //blocks/estatisticas.php
 define("_MB_CODBANNER","COD");
@@ -71,16 +71,16 @@ define("_MB_IMP","IMP.");
 define("_MB_IMPRES","IMP.REST.");
 define("_MB_CLIQUES","CLIQUES");
 define("_MB_PORCCLI","%");
-define("_MB_DATA","DATA CRIA«√O");
+define("_MB_DATA","DATA CRIA√á√ÉO");
 define("_MB_PERIODO","DATA FINAL");
-define("_MB_MSG1","<b>Obs.:</b> Para ver a imagem do banner, clique sobre o cÛdigo do mesmo na listagem que uma janela popup abrir· mostrando o seu banner");
-define("_MB_MSG2","Para poder utilizar os serviÁos de publicidade do %s vocÍ precisa ser um usu·rio cadastrado.
-   Este procedimento visa ter um melhor controle de nossos parceiros e um melhor gerenciamento de nossas mÌdias publicit·rias.<br /><br />
-   Caso j· seja um usu·rio cadastrado no site, clique <a href=\"%s\">aqui</a> e faÁa o login para que possa preencher o formul·rio de cadastro
-   de banners e participar de nosso sistema de publicidade. Se vocÍ ainda n„o È um usu·rio cadastrado no site, clique <a href=\"%s\">aqui</a> e
-   faÁa seu cadastro. ApÛs ter se cadastrado no site vocÍ estar· apto a participar de nosso sistema de publicidade.");
+define("_MB_MSG1","<b>Obs.:</b> Para ver a imagem do banner, clique sobre o c√≥digo do mesmo na listagem que uma janela popup abrir√° mostrando o seu banner");
+define("_MB_MSG2","Para poder utilizar os servi√ßos de publicidade do %s voc√™ precisa ser um usu√°rio cadastrado.
+   Este procedimento visa ter um melhor controle de nossos parceiros e um melhor gerenciamento de nossas m√≠dias publicit√°rias.<br /><br />
+   Caso j√° seja um usu√°rio cadastrado no site, clique <a href=\"%s\">aqui</a> e fa√ßa o login para que possa preencher o formul√°rio de cadastro
+   de banners e participar de nosso sistema de publicidade. Se voc√™ ainda n√£o √© um usu√°rio cadastrado no site, clique <a href=\"%s\">aqui</a> e
+   fa√ßa seu cadastro. Ap√≥s ter se cadastrado no site voc√™ estar√° apto a participar de nosso sistema de publicidade.");
 define("_MB_BANNER_EXIBREST","Ilimitado");
 define("_MB_BUTTON1","Ordernar");
-define("_MB_BUTTON2","Banners por P·gina");
+define("_MB_BUTTON2","Banners por P√°gina");
 
 ?>

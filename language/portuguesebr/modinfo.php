@@ -23,15 +23,15 @@
 //  along with this program; if not, write to the Free Software              //
 //  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA //
 // ------------------------------------------------------------------------- //
-// Author: Rodrigo Pereira Lima (BrInfo - SoluÁıes Web)                      //
+// Author: Rodrigo Pereira Lima (BrInfo - Solu√ß√µes Web)                      //
 // Site: http://www.brinfo.com.br                                            //
 // Project: RW-Banner                                                        //
-// DescriÁ„o: Sistema de gerenciamento de mÌdias publicit·rias               //
+// Descri√ß√£o: Sistema de gerenciamento de m√≠dias publicit√°rias               //
 // ------------------------------------------------------------------------- //
 
 //xoops_version.php
 define("_MI_RWBANNER_NAME","rw-banner");
-define("_MI_RWBANNER_DESC","Sistema de Gerenciamento e exibiÁ„o de banners randÙmicos.");
+define("_MI_RWBANNER_DESC","Sistema de Gerenciamento e exibi√ß√£o de banners rand√¥micos.");
 define("_MI_RWBANNER_DIR_NAME", "rw_banner");
 
 define("_MI_RWBANNER_TABLE1", "rw_banner");
@@ -39,11 +39,11 @@ define("_MI_RWBANNER_TABLE2", "rw_categorias");
 define("_MI_RWBANNER_TABLE3", "rw_tags");
 
 define("_MI_RWBLOCK1_NAME","Banner Rotativo");
-define("_MI_RWBLOCK1_NAME_DESC", "Cria um bloco com 1 ou mais banners randÙmicos");
-define("_MI_RWBLOCK2_NAME","EstatÌsticas do Cliente");
-define("_MI_RWBLOCK2_NAME_DESC", "Cria um bloco que exibe para o cliente as estatÌsticas de seus banners");
+define("_MI_RWBLOCK1_NAME_DESC", "Cria um bloco com 1 ou mais banners rand√¥micos");
+define("_MI_RWBLOCK2_NAME","Estat√≠sticas do Cliente");
+define("_MI_RWBLOCK2_NAME_DESC", "Cria um bloco que exibe para o cliente as estat√≠sticas de seus banners");
 define("_MI_RWBLOCK3_NAME","Banner DHTML");
-define("_MI_RWBLOCK3_NAME_DESC", "Cria um bloco que exibe uma janela DHTML de fechamento autom·tico centralizada na tela.");
+define("_MI_RWBLOCK3_NAME_DESC", "Cria um bloco que exibe uma janela DHTML de fechamento autom√°tico centralizada na tela.");
 define("_MI_RWBLOCK4_NAME","Ajax Banner");
 define("_MI_RWBLOCK4_NAME_DESC", "Cria um bloco que exibe os banners e utiliza ajax para dar refresh no bloco e mudar os banners.");
 define("_MI_RWBLOCK5_NAME","Drop-in Banner");
@@ -52,109 +52,109 @@ define("_MI_RWBLOCK6_NAME","LightBox Banner");
 define("_MI_RWBLOCK6_NAME_DESC", "Exibe o banners numa Div DHTML cheia de efeitos legais.");
 
 define('_MI_RW_DIRIMAGES', "Dir. Banners:");
-define('_MI_RW_DIRIMAGES_DESC', "DiretÛrio padr„o para o upload dos banners");
+define('_MI_RW_DIRIMAGES_DESC', "Diret√≥rio padr√£o para o upload dos banners");
 define('_MI_RW_SHOWCADFORM', "Permitir Cadastro:");
-define('_MI_RW_SHOWCADFORM_DESC', "Permitir que usu·rios cadastrem seus banners atravÈs de formul·rio na p·gina principal do mÛdulo? Se sim formul·rio de cadastro È exibido.");
+define('_MI_RW_SHOWCADFORM_DESC', "Permitir que usu√°rios cadastrem seus banners atrav√©s de formul√°rio na p√°gina principal do m√≥dulo? Se sim formul√°rio de cadastro √© exibido.");
 define('_MI_RW_NUMREGISTROS', "Quantidade de Banners:");
-define('_MI_RW_NUMREGISTROS_DESC', "Quantidade de Banners exibidos por p·gina na administraÁ„o do mÛdulo.");
+define('_MI_RW_NUMREGISTROS_DESC', "Quantidade de Banners exibidos por p√°gina na administra√ß√£o do m√≥dulo.");
 define('_MI_RW_PERMCLIENT', "Cliente pode alterar banner:");
 define('_MI_RW_PERMCLIENT_DESC', "Sim permite que o cliente de banner possa alterar os dados de seus banners.");
 define('_MI_RW_CAMPOSPERM', "Campos Permitidos:");
-define('_MI_RW_CAMPOSPERM_DESC', "Selecione os campos que o cliente ter· permiss„o de alterar caso a opÁ„o acima esteja ativada.");
+define('_MI_RW_CAMPOSPERM_DESC', "Selecione os campos que o cliente ter√° permiss√£o de alterar caso a op√ß√£o acima esteja ativada.");
 
 define("_MI_RWBANNER_HISTORY","
 <b>=> Version 1.5 (10/09/2006)<br/>
 ===================================<br/></b>
 <ul>
-<li>Resolvido enfim o problema de contabilizaÁ„o dos banners em flash. Todo o action script do banner do mÛdulo foi refeito e os bugs corrigidos.</li>
-<li>Todo o mÛdulo foi reformulado. Agora todo o seu cÛdigo È orientado a objeto e est· muito mais r·pido e est·vel.</li>
-<li>IncluÌda a opÁ„o de perÌodo para a exibiÁ„o dos banners. Na hora de cadastrar um vocÍ define um perÌdo (em dias) para esse banner ser exibido, terminado esse perÌodo o banner È desativado e n„o mais È exibido para os usu·rios.</li>
-<li>Com um pequeno hack no core do xoops, agora È possÌvel incluir banners em qualquer mÛdulo que aceite bbcodes como o news ou o cbb. Portanto agora È possÌvel exibir banners em notÌcias, artigos, posts de fÛrum e muito mais. Para maiores informaÁıes sobre como usar este recurso leia o arquivo readme.txt</li>
-<li>Adicionada a funÁ„o de gerenciar as TAGS SMARTY do mÛdulo. Antes, para exibir seus banners no tema do site ou nos templates dos mÛdulos vocÍ tinha que criar manualmente as tags inserindo o comando no arquivo header.php. Agora, o hack continua necess·rio, porÈm vocÍ sÛ o inclui uma vez e a partir daÌ cria, edita, muda o status e apaga as tags direto pela administraÁ„o do site.</li>
-<li>2 novos blocos com efeitos DHTML foram criados, Drop-in Banner e LightBox Banner. Agora vocÍ pode dar um novo destaque aos seus banners.</li>
+<li>Resolvido enfim o problema de contabiliza√ß√£o dos banners em flash. Todo o action script do banner do m√≥dulo foi refeito e os bugs corrigidos.</li>
+<li>Todo o m√≥dulo foi reformulado. Agora todo o seu c√≥digo √© orientado a objeto e est√° muito mais r√°pido e est√°vel.</li>
+<li>Inclu√≠da a op√ß√£o de per√≠odo para a exibi√ß√£o dos banners. Na hora de cadastrar um voc√™ define um per√≠do (em dias) para esse banner ser exibido, terminado esse per√≠odo o banner √© desativado e n√£o mais √© exibido para os usu√°rios.</li>
+<li>Com um pequeno hack no core do xoops, agora √© poss√≠vel incluir banners em qualquer m√≥dulo que aceite bbcodes como o news ou o cbb. Portanto agora √© poss√≠vel exibir banners em not√≠cias, artigos, posts de f√≥rum e muito mais. Para maiores informa√ß√µes sobre como usar este recurso leia o arquivo readme.txt</li>
+<li>Adicionada a fun√ß√£o de gerenciar as TAGS SMARTY do m√≥dulo. Antes, para exibir seus banners no tema do site ou nos templates dos m√≥dulos voc√™ tinha que criar manualmente as tags inserindo o comando no arquivo header.php. Agora, o hack continua necess√°rio, por√©m voc√™ s√≥ o inclui uma vez e a partir da√≠ cria, edita, muda o status e apaga as tags direto pela administra√ß√£o do site.</li>
+<li>2 novos blocos com efeitos DHTML foram criados, Drop-in Banner e LightBox Banner. Agora voc√™ pode dar um novo destaque aos seus banners.</li>
 </ul>
 <b>=> Version 1.4 RC (02/04/2006)<br/>
 ===================================<br/></b>
 <ul>
-<li>Inclus„o de um novo bloco. Ajax Banner, este bloco monta uma tabela com os banners selecionados atravÈs dos critÈrios de configuraÁ„o e muda os banners exibidos de x em x segundos tambÈm definidos nas configuraÁıes.<li>
-<li>Criados os templates para todos os blocos. Agora ficou muito mais f·cil alterar o formato da exibiÁ„o dos banners dentro dos blocos.<li>
+<li>Inclus√£o de um novo bloco. Ajax Banner, este bloco monta uma tabela com os banners selecionados atrav√©s dos crit√©rios de configura√ß√£o e muda os banners exibidos de x em x segundos tamb√©m definidos nas configura√ß√µes.<li>
+<li>Criados os templates para todos os blocos. Agora ficou muito mais f√°cil alterar o formato da exibi√ß√£o dos banners dentro dos blocos.<li>
 </ul>
 <b>=> Version 1.3.2 RC1 (23/02/2006)<br/>
 ===================================<br/></b>
 <ul>
-<li>Inclus„o de um novo bloco. Banner DHTML, este bloco cria uma ·rea flutuante que se fecha automaticamente em X segundos e possui opÁ„o para seleÁ„o de cor de fundo e da borda, quantos banners ser„o exibidos, em quantas colunas, mostrar o banner 1 vez a cada X reloads entre outras.</li>
+<li>Inclus√£o de um novo bloco. Banner DHTML, este bloco cria uma √°rea flutuante que se fecha automaticamente em X segundos e possui op√ß√£o para sele√ß√£o de cor de fundo e da borda, quantos banners ser√£o exibidos, em quantas colunas, mostrar o banner 1 vez a cada X reloads entre outras.</li>
 </ul>
 <b>=> Version 1.3.2 RC (05/02/2006)<br/>
 ===================================<br/></b>
 <ul>
-<li>Corrigido o problema de contabilizaÁ„o de cliques dos banners em flash.</li>
-<li>AlteraÁ„o na tela de inclus„o e ediÁ„o de banners e inclus„o e ediÁ„o de categorias. Agora est· sendo usado a classe de formul·rios do prÛprio xoops.</li>
-<li>Inclus„o tambÈm na ·rea de adiÁ„o e ediÁ„o de banners a opÁ„o de upload do banner, agora n„o È necess·rio que se coloque toda vez a url da imagem, podendo ser escolhida a opÁ„o de url ou upload. Para banners em flash (swf) somente usar o upload para que as est·tisticas deste banner funcionem.</li>
-<li>Corrigidos os bugs da p·gina do mÛdulo no lado do usu·rio, agora os usu·rios do site que s„o clientes de banners podem acompanhar as estatÌsticas de seus banners atravÈs desta ·rea.</li>
-<li>Inclus„o da opÁ„o de contrataÁ„o de banners por clique, quando for atingido o total de cliques contratados o banner se torna inativo e n„o È mais exibido.</li>
+<li>Corrigido o problema de contabiliza√ß√£o de cliques dos banners em flash.</li>
+<li>Altera√ß√£o na tela de inclus√£o e edi√ß√£o de banners e inclus√£o e edi√ß√£o de categorias. Agora est√° sendo usado a classe de formul√°rios do pr√≥prio xoops.</li>
+<li>Inclus√£o tamb√©m na √°rea de adi√ß√£o e edi√ß√£o de banners a op√ß√£o de upload do banner, agora n√£o √© necess√°rio que se coloque toda vez a url da imagem, podendo ser escolhida a op√ß√£o de url ou upload. Para banners em flash (swf) somente usar o upload para que as est√°tisticas deste banner funcionem.</li>
+<li>Corrigidos os bugs da p√°gina do m√≥dulo no lado do usu√°rio, agora os usu√°rios do site que s√£o clientes de banners podem acompanhar as estat√≠sticas de seus banners atrav√©s desta √°rea.</li>
+<li>Inclus√£o da op√ß√£o de contrata√ß√£o de banners por clique, quando for atingido o total de cliques contratados o banner se torna inativo e n√£o √© mais exibido.</li>
 </ul>
 <b>=> Version 1.3 RC (18/09/2005)<br/>
 ===================================<br/></b>
 <ul>
-<li>AlteraÁ„o na funÁ„o de exibiÁ„o dos banners no header e nos templates. Foi adicionada a opÁ„o de se exibir uma categoria somente em um mÛdulo especÌfico.</li>
-<li>Devido ‡ esta alteraÁ„o na funÁ„o, foi incluÌda mais uma opÁ„o nos formul·rios de cadastro e ediÁ„o de categorias, com esta nova opÁ„o, o administrador do mÛdulo tem como vincular uma categoria a um mÛdulo especÌfico, fazendo com que os banners dessa categoria sÛ sejam exibidos no mÛdulo vinculado.</li>
+<li>Altera√ß√£o na fun√ß√£o de exibi√ß√£o dos banners no header e nos templates. Foi adicionada a op√ß√£o de se exibir uma categoria somente em um m√≥dulo espec√≠fico.</li>
+<li>Devido √† esta altera√ß√£o na fun√ß√£o, foi inclu√≠da mais uma op√ß√£o nos formul√°rios de cadastro e edi√ß√£o de categorias, com esta nova op√ß√£o, o administrador do m√≥dulo tem como vincular uma categoria a um m√≥dulo espec√≠fico, fazendo com que os banners dessa categoria s√≥ sejam exibidos no m√≥dulo vinculado.</li>
 <li>Foram criadas as constantes de idioma.</li>
-<li>Um bug ainda persiste, ainda n„o consegui resolver o problema de contabilizaÁ„o de cliques para banner em flash e cÛdigo html.</li>
+<li>Um bug ainda persiste, ainda n√£o consegui resolver o problema de contabiliza√ß√£o de cliques para banner em flash e c√≥digo html.</li>
 </ul>
 <b>=> Version 1.1 RC (14/09/2005)<br/>
 ==================================<br/></b>
 <ul>
-<li>Foram corrigidos v·rios bugs encontrados na vers„o anterior.</li>
-<li>IncluÌda a opÁ„o de cadastrar banners para um determinado cliente.</li>
-<li>A ·rea administrativa foi modificada, ficando mais intuÌtiva e organizada.</li>
-<li>Adicionado um novo bloco, estatÌticas do cliente, que exibe para o cliente as principais estatÌsticas de seus banners.</li>
-<li>Criada a ·rea do cliente, onde ele tem acesso as estatÌsticas de seus banners, opÁ„o de alteraÁ„o da url dos banners e ainda o envio das estatÌsticas por email.</li>
+<li>Foram corrigidos v√°rios bugs encontrados na vers√£o anterior.</li>
+<li>Inclu√≠da a op√ß√£o de cadastrar banners para um determinado cliente.</li>
+<li>A √°rea administrativa foi modificada, ficando mais intu√≠tiva e organizada.</li>
+<li>Adicionado um novo bloco, estat√≠ticas do cliente, que exibe para o cliente as principais estat√≠sticas de seus banners.</li>
+<li>Criada a √°rea do cliente, onde ele tem acesso as estat√≠sticas de seus banners, op√ß√£o de altera√ß√£o da url dos banners e ainda o envio das estat√≠sticas por email.</li>
 </ul>
 <b>=> Version 0.9 Beta 1 (11/09/2005)<br/>
 ==================================<br/></b>
 <ul>
-<li>LanÁamento p˙blico da 1™ vers„o de testes.</li>
+<li>Lan√ßamento p√∫blico da 1¬™ vers√£o de testes.</li>
 </ul>");
 
-define('_MI_RWBANNER_AUTHOR_WORD_DESC', "AgradeÁo a todos os amigos da comunidade
+define('_MI_RWBANNER_AUTHOR_WORD_DESC', "Agrade√ßo a todos os amigos da comunidade
  <a href='http://www.xoopstotal.com.br' target='_blank'>XoopsTotal</a> que me ajudaram
- com idÈias e sugestıes para o desenvolvimento deste mÛdulo. Um agradecimento todo especial aos grandes amigos
+ com id√©ias e sugest√µes para o desenvolvimento deste m√≥dulo. Um agradecimento todo especial aos grandes amigos
  <a href='http://www.xoopstotal.com.br/userinfo.php?uid=11' target='_blank'>Wilson</a> ,
  <a href='http://www.xoopstotal.com.br/userinfo.php?uid=5' target='_blank'>Giba</a> e
 <a href='http://www.xoopstotal.com.br/userinfo.php?uid=8' target='_blank'>EyeKeeper</a>
-pela enorme ajuda, suas brilhantes idÈias, traduÁıes e tambÈm pela colaboraÁ„o em todas as fases de testes do mÛdulo.");
+pela enorme ajuda, suas brilhantes id√©ias, tradu√ß√µes e tamb√©m pela colabora√ß√£o em todas as fases de testes do m√≥dulo.");
 
 // About.php constants
 define('_MI_RWBANNER_AUTHOR_INFO', "Desenvolvedores");
-define('_MI_RWBANNER_DEVELOPER_LEAD', "Desenvolvedor LÌder");
+define('_MI_RWBANNER_DEVELOPER_LEAD', "Desenvolvedor L√≠der");
 define('_MI_RWBANNER_DEVELOPER_CONTRIBUTOR', "Colaboradores");
 define('_MI_RWBANNER_DEVELOPER_WEBSITE', "Website");
 define('_MI_RWBANNER_DEVELOPER_EMAIL', "Email");
-define('_MI_RWBANNER_DEVELOPER_CREDITS', "CrÈditos");
-define('_MI_RWBANNER_MODULE_INFO', "InformaÁıes de Desenvolvimento do mÛdulo");
-define('_MI_RWBANNER_MODULE_STATUS', "CondiÁıes");
-define('_MI_RWBANNER_MODULE_RELEASE_DATE', "Data da vers„o");
-define('_MI_RWBANNER_MODULE_DEMO', "Site de demonstraÁ„o");
+define('_MI_RWBANNER_DEVELOPER_CREDITS', "Cr√©ditos");
+define('_MI_RWBANNER_MODULE_INFO', "Informa√ß√µes de Desenvolvimento do m√≥dulo");
+define('_MI_RWBANNER_MODULE_STATUS', "Condi√ß√µes");
+define('_MI_RWBANNER_MODULE_RELEASE_DATE', "Data da vers√£o");
+define('_MI_RWBANNER_MODULE_DEMO', "Site de demonstra√ß√£o");
 define('_MI_RWBANNER_MODULE_SUPPORT', "Site oficial de suporte");
-define('_MI_RWBANNER_MODULE_BUG', "Reportar um bug para este mÛdulo");
+define('_MI_RWBANNER_MODULE_BUG', "Reportar um bug para este m√≥dulo");
 define('_MI_RWBANNER_MODULE_SUBMIT_BUG', "Enviar um bug");
-define('_MI_RWBANNER_MODULE_FEATURE', "Sugestıes e novas caracterÌsticas para este mÛdulo");
-define('_MI_RWBANNER_MODULE_SUBMIT_FEATURE', "Solicitar uma nova caracterÌstica");
+define('_MI_RWBANNER_MODULE_FEATURE', "Sugest√µes e novas caracter√≠sticas para este m√≥dulo");
+define('_MI_RWBANNER_MODULE_SUBMIT_FEATURE', "Solicitar uma nova caracter√≠stica");
 define('_MI_RWBANNER_MODULE_DISCLAIMER', "Disclaimer");
 define('_MI_RWBANNER_AUTHOR_WORD', "Palavras do autor");
-define('_MI_RWBANNER_VERSION_HISTORY', "HistÛria da vers„o");
+define('_MI_RWBANNER_VERSION_HISTORY', "Hist√≥ria da vers√£o");
 define('_MI_RWBANNER_BY', "Por");
 // RC
-define('_MI_RWBANNER_WARNING_RC', "Este mÛdulo foi disponibilizado sem quaisquer garantias. Este mÛdulo È uma vers„o Release Candidate e n„o pode ser usado em um site de produÁ„o. O mÛdulo ainda est· sob desenvolvimento ativo e seu uso È de sua prÛpria responsabilidade, o que significa que os autores n„o se responsabilizam.");
+define('_MI_RWBANNER_WARNING_RC', "Este m√≥dulo foi disponibilizado sem quaisquer garantias. Este m√≥dulo √© uma vers√£o Release Candidate e n√£o pode ser usado em um site de produ√ß√£o. O m√≥dulo ainda est√° sob desenvolvimento ativo e seu uso √© de sua pr√≥pria responsabilidade, o que significa que os autores n√£o se responsabilizam.");
 
 //admin/menu.php
-define("_ADM_MENU_TITLE1","Õndice");
+define("_ADM_MENU_TITLE1","√çndice");
 define("_ADM_MENU_TITLE2","Blocos/Grupos");
 define("_ADM_MENU_TITLE3","Cadastrar Banner");
 define("_ADM_MENU_TITLE4","Cadastrar Categoria");
 define("_ADM_MENU_TITLE5","Suporte");
-define("_ADM_MENU_TITLE6","Sobre o MÛdulo");
-define("_ADM_MENU_TITLE7","PreferÍncias");
+define("_ADM_MENU_TITLE6","Sobre o M√≥dulo");
+define("_ADM_MENU_TITLE7","Prefer√™ncias");
 define("_ADM_MENU_TITLE8","Cadastrar Tags");
 
 ?>
