@@ -23,15 +23,15 @@
 //  along with this program; if not, write to the Free Software              //
 //  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA //
 // ------------------------------------------------------------------------- //
-// Author: Rodrigo Pereira Lima (BrInfo - Soluções Web)                      //
+// Author: Rodrigo Pereira Lima (BrInfo - Soluï¿½ï¿½es Web)                      //
 // Site: http://www.brinfo.com.br                                            //
 // Project: RW-Banner                                                        //
-// Descrição: Sistema de gerenciamento de mídias publicitárias               //
+// Descriï¿½ï¿½o: Sistema de gerenciamento de mï¿½dias publicitï¿½rias               //
 // ------------------------------------------------------------------------- //
 
 include("../../../mainfile.php");
 include '../../../include/cp_header.php';
-include_once XOOPS_ROOT_PATH."/class/xoopsmodule.php";
+require_once XOOPS_ROOT_PATH.'/kernel/module.php';
 include_once XOOPS_ROOT_PATH."/class/xoopstree.php";
 include_once XOOPS_ROOT_PATH."/class/xoopslists.php";
 include_once XOOPS_ROOT_PATH."/class/xoopsformloader.php";

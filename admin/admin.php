@@ -23,10 +23,10 @@
 //  along with this program; if not, write to the Free Software              //
 //  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA //
 // ------------------------------------------------------------------------- //
-// Author: Rodrigo Pereira Lima (BrInfo - Soluções Web)                      //
+// Author: Rodrigo Pereira Lima (BrInfo - Soluï¿½ï¿½es Web)                      //
 // Site: http://www.brinfo.com.br                                            //
 // Project: RW-Banner                                                        //
-// Descrição: Sistema de gerenciamento de mídias publicitárias               //
+// Descriï¿½ï¿½o: Sistema de gerenciamento de mï¿½dias publicitï¿½rias               //
 // ------------------------------------------------------------------------- //
 
 $admin_mydirname = basename( dirname( dirname( __FILE__ ) ) ) ;
@@ -38,7 +38,7 @@ if( empty( $fct ) ) $fct = 'preferences' ;
 
 include "../../../mainfile.php";
 include XOOPS_ROOT_PATH."/include/cp_functions.php";
-include_once XOOPS_ROOT_PATH."/class/xoopsmodule.php";
+require_once XOOPS_ROOT_PATH.'/kernel/module.php';
 include_once "../include/gtickets.php" ;// GIJ
 
 $admintest = 0;
