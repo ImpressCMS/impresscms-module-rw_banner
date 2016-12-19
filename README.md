@@ -126,19 +126,19 @@ But in the body of your news or any other module that accepts bbcodes you have t
 The parameter align accpets the values "left" for left alignment, "right"for right alignment and "center" for center alignment.
 
 
-UPDATES:
+## UPDATES
 The modules had structural changes in relation to the database in relation to the previous verions. If you use any versions prior to 1.3RC we recommend you to unistall the module before installing the new version. 
 In case you have a version newer than the 1.3RC, delete the `rw_banner` folder and replace it by the folder from the new version. Login as administrator to your site. If you use the hack in `header.php` file, comment it first. Access via browser the URL "`XOOPS_URL/modules/rw_banner/admin/upgrade.php`" and the script will update the tables automatically without loosing all the setup you have already defined and all the registered banners. Follow the steps described in the script and your module will be updated.
 
-KNOWN BUGS:
+## KNOWN BUGS
 -Banners in HTML code don't have their click counted. This bug is originally from the original xoops banner module. This function is used in our module but with some changes. 
 
-THANKS:
+## THANKS
 I thank all my friends from the XoopsTotal community that helped me with ideas and suggestions for the development of this module, in special to my great friend Wilson and Giba (board of XT) for their great help with their ideias and help in testing the module. 
 
 For further information or problem solving for this module access the following site: http://rwbanner.brinfo.com.br
 
-# ITS DISPOSAL
+## ITS DISPOSAL
 We will be inside of the possible always creating examples of as to use rw_banner and thus you will be able to get the biggest possible advantage to use this module.
 
 If you will be using this module, does not leave to visit our site of development to suggest new features.
